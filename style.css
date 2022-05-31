@@ -1,0 +1,136 @@
+html {
+    margin: 0px;
+    background-color: #f1faee;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0px;
+    text-align: center;
+    color: #0e1111;
+}
+
+h1 {
+    background-color: #1d3557;
+    padding: 0.2em 0.4em;
+}
+
+#headerimg {
+    background-image: url('https://www.visitbritain.com/sites/default/files/styles/consumer_vertical_hero__1920x1080/public/paragraphs_bundles/hero_image/images/canterbury_cover_1__3_0.jpg?itok=-EoytvhV');
+    margin: 0px;
+    background-size: cover;
+    height: 400px;
+    width: auto;
+    color: white;
+    background-color: #1d3557;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
+    box-shadow: 0px 1px 30px #0e1111;
+}
+
+h2 {
+    margin-top: 80px;
+    color: #457b9d;
+}
+
+#hotspots-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 90%;
+    margin: 0px auto 0px auto;
+}
+
+.hotspot-container {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    color: #1d3557;
+}
+
+.hotspot-container,
+img {
+    height: 200px;
+    width: 300px;
+}
+
+.hotspot-container,
+span {
+    height: auto;
+    width: auto;
+    margin-top: 14px;
+}
+
+#hotspot-cathedral {
+    height: 200px;
+    width: 300px;
+    background-image: url("http://t3.gstatic.com/licensed-image?q=tbn:ANd9GcRtSzZaFGEIwIL5h3PgtxgAf8MmfARnMzZJ4nMRbws_S8C8NNZ4SVn4jYrVqj_WBTcz");
+    background-size: cover;
+}
+
+#hotspot-river {
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/b/bb/River_Stour%2C_Canterbury_-_geograph.org.uk_-_826654.jpg);
+    height: 200px;
+    width: 300px;
+    background-size: cover;
+}
+
+#hotspot-pub {
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/7/7f/The_%22Thomas_Becket%22_Pub%2C_Canterbury.jpg);
+    height: 200px;
+    width: 300px;
+    background-size: cover;
+}
+
+#hotspot-cathedral:hover {
+    background-image: url(https://images.photowall.com/products/58854/canterbury-cathedral.jpg?h=699&q=85);
+}
+
+#hotspot-river:hover {
+    background-image: url(https://www.britainexpress.com/images/attractions/editor/Canterbury-2246.jpg);
+}
+
+#hotspot-pub:hover {
+    background-image: url(https://media-cdn.tripadvisor.com/media/photo-s/10/de/5f/db/bell-crown.jpg);
+}
+
+#guide {
+    display: flex;
+    background-color: #a8dadc;
+    height: 200px;
+    width: 550px;
+    margin: 20px auto;
+    padding: 20px;
+    margin-top: 100px;
+    color: #1d3557;
+}
+
+#guide-info {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: auto;
+}
+
+#guide-info,
+h3,
+p,
+h4 {
+    height: auto;
+    width: auto;
+    margin: 8px;
+}
+
+a {
+    color: #e63946;
+}
+
+a:hover {
+    color: #457b9d;
+}
+
+#footer {
+    margin: 60px auto;
+}
